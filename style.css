@@ -1,0 +1,39 @@
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    display: flex;
+    font-size: 50px;
+}
+
+.items {
+    padding: 20px;
+    border: 2px solid rgb(96, 96, 96);
+    border-radius: 50%;
+    margin: 12px;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.items:hover {
+    border: 2px solid rgb(176, 176, 176);
+    border-radius: 50%;
+    margin: 12px;
+    background-color: rgb(198, 247, 247);
+    cursor: pointer;
+}
+.score{
+padding: 30px;
+}
+#showresult{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+
+}
